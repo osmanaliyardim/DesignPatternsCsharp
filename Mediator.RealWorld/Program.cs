@@ -1,4 +1,23 @@
-﻿public abstract class AbstractChatroom
+﻿Chatroom chatroom = new Chatroom();
+
+Participant Osman = new Beatle("Osman");
+Participant Berat = new Beatle("Berat");
+Participant Gokhan = new Beatle("Gokhan");
+Participant Belgin = new NonBeatle("Belgin");
+
+chatroom.Register(Osman);
+chatroom.Register(Berat);
+chatroom.Register(Gokhan);
+chatroom.Register(Belgin);
+
+Osman.Send("Belgin", "I love you!");
+Belgin.Send("Osman", "I love you, too!");
+Gokhan.Send("Berat", "Berat sigara?");
+Berat.Send("Gokhan", "Sana bir sigara vericem şimdi..");
+
+Console.ReadLine();
+
+public abstract class AbstractChatroom
 {
     public abstract void Register(Participant participant);
     public abstract void Send(string from, string to, string message);
