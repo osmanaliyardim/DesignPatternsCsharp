@@ -17,9 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy.Structural", "Stra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy.RealWorld", "Strategy.RealWorld\Strategy.RealWorld.csproj", "{E46603C2-3D34-4D94-A797-2268B8BC6AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Structural", "Mediator.Structural\Mediator.Structural.csproj", "{35B5549C-0740-4F21-B964-BC3D77A29DC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Structural", "Mediator.Structural\Mediator.Structural.csproj", "{35B5549C-0740-4F21-B964-BC3D77A29DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.RealWorld", "Mediator.RealWorld\Mediator.RealWorld.csproj", "{919C40D8-FB8B-42DF-886D-865EBFC1B40B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.RealWorld", "Mediator.RealWorld\Mediator.RealWorld.csproj", "{919C40D8-FB8B-42DF-886D-865EBFC1B40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{CC28A033-1BFF-4C63-81CC-7A86B0F9DC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Structural", "Singleton.Structural\Singleton.Structural.csproj", "{805C93DE-5C67-451C-9B86-B2CCB209BC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "Singleton.RealWorld\Singleton.RealWorld.csproj", "{ECAE8C42-B626-487E-913F-5FEF6ED32F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,14 @@ Global
 		{919C40D8-FB8B-42DF-886D-865EBFC1B40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{919C40D8-FB8B-42DF-886D-865EBFC1B40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{919C40D8-FB8B-42DF-886D-865EBFC1B40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805C93DE-5C67-451C-9B86-B2CCB209BC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805C93DE-5C67-451C-9B86-B2CCB209BC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805C93DE-5C67-451C-9B86-B2CCB209BC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805C93DE-5C67-451C-9B86-B2CCB209BC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAE8C42-B626-487E-913F-5FEF6ED32F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAE8C42-B626-487E-913F-5FEF6ED32F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAE8C42-B626-487E-913F-5FEF6ED32F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAE8C42-B626-487E-913F-5FEF6ED32F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +81,8 @@ Global
 		{E46603C2-3D34-4D94-A797-2268B8BC6AB8} = {C6BFF06D-166E-4779-A293-5BDEB0F5C620}
 		{35B5549C-0740-4F21-B964-BC3D77A29DC0} = {55419887-99B2-4678-97ED-6552B2386FA1}
 		{919C40D8-FB8B-42DF-886D-865EBFC1B40B} = {55419887-99B2-4678-97ED-6552B2386FA1}
+		{805C93DE-5C67-451C-9B86-B2CCB209BC84} = {CC28A033-1BFF-4C63-81CC-7A86B0F9DC8D}
+		{ECAE8C42-B626-487E-913F-5FEF6ED32F36} = {CC28A033-1BFF-4C63-81CC-7A86B0F9DC8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75B81BE2-DC0F-436D-BCCA-0FBA0F83EBA8}
